@@ -1,0 +1,96 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2, h3, span {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h3, span {
+  color: white;
+}
+
+
+main{
+
+    width: 900px;
+    height: 650px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+
+
+.logo{
+  display: block;
+  margin: auto;
+  width: 180px;
+  padding-top: 50px;
+
+  }
+
+header > h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #00DD00;
+  margin: 0;
+
+}
+
+section, nav {
+  width: 700px;
+  margin: auto;
+}
+
+nav {
+  box-sizing: border-box;
+  height: 40px;
+  background-color: #00DD00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.pulsanti {
+  text-align: center;
+}
+
+section h3 {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+
+.indirizzo:before {
+  content: "\21A6";
+}
+
+ span {
+  font-size: 12px;
+  }
+
+
+.fullcharge, .badcharge, .halfcharge {
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.fullcharge {
+  background-color: green;
+  width: 60%;
+}
+
+.halfcharge {
+  background-color: orange;
+  width: 30%;
+}
+
+.badcharge {
+  background-color: red;
+  width: 15%;
+}
